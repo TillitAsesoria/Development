@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="view_stock_quant_tree_inventory" model="ir.ui.view">
+            <field name="name">report.inventory.tree</field>
+            <field name="model">stock.quant</field>
+            <field name="arch" type="xml">
+                <tree string="Inventory Valuation" js_class="inventory_report_list" create="0" delete="0">
+                    <field name="product_id" invisible="context.get('single_product', False)"/>
+                    <field name="location_id" invisible="context.get('hide_location', False)"/>
+                    <field name="quantity"/>
+                    <field name='company_id' groups="base.group_multi_company"/>
+                    <field name="coste"/>
+                    <field name="value"/>
+                    <field name="antiguedad"/>
+            </tree>
+            </field>
+        </record>
+
+        <record id="report_inventory_act_window" model="ir.actions.server">
+            <field name="name">Reporte Inventorio</field>
+            <field name="model_id" ref="model_stock_quant"/>
+            <field name="state">code</field>
+            <field name="groups_id" eval="[(4, ref('stock.group_stock_user'))]"/>
+            <field name="code">action = model.with_context(
+                search_default_internal_loc=1,
+                search_default_productgroup=1,
+            ).action_view_quants_tree() </field>
+        </record>
+
+        <menuitem name="Reporte de Inventario" id="report_inventory_menu" parent="stock.menu_warehouse_report" action="report_inventory_act_window"/>
+
+    </data>
+</odoo>

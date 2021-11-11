@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="stock_landed_cost_form_inherit" model="ir.ui.view">
+            <field name="name">stock_landed_cost_inherit.form</field>
+            <field name="model">stock.landed.cost</field>
+            <field name="inherit_id" ref="stock_landed_costs.view_stock_landed_cost_form"/>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='account_journal_id']" position="after">
+                    <field name="type_selection"/>
+                </xpath>
+
+            </field>
+        </record>
+
+        <record id="view_stock_landed_cost_form_l10n_mx_stock_inherit" model="ir.ui.view">
+            <field name="name">view_stock_landed_cost_form_l10n_mx_stock.form</field>
+            <field name="model">stock.landed.cost</field>
+            <field name="inherit_id" ref="l10n_mx_edi_landing.view_stock_landed_cost_form_l10n_mx_stock"/>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='l10n_mx_edi_customs_number']" position="replace">
+                   <field name="l10n_mx_edi_customs_number" placeholder="15  48  3009  0001234" attrs="{'readonly': [('state','!=','draft')], 'invisible': [('type_selection', '!=', 'p')]}"/>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</odoo>

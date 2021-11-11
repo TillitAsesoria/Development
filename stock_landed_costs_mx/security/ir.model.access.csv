@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_coste_destino_coste_destino,coste_destino.coste_destino,model_coste_destino_coste_destino,base.group_user,1,1,1,1

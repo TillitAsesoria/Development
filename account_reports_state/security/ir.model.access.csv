@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_account_client_state,account.client.state,model_account_client_state,base.group_user,1,1,1,1
+access_account_state_receivable,account.state.receivable,model_account_state_receivable,base.group_user,1,1,1,1
+access_account_state_payable,account.state.payable,model_account_state_payable,base.group_user,1,1,1,1
