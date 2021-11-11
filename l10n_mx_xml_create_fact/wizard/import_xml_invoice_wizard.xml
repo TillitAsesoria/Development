@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="import_xml_invoice_wizard_form_view" model="ir.ui.view">
+            <field name="name">import_xml_invoice_wizard.form</field>
+            <field name="model">import.xml.invoice.wizard</field>
+            <field name="arch" type="xml">
+                <form string="Importar XML">
+                    <sheet>
+                        <group>
+<!--                            <field name="xml_doc" widget="many2many_tags"/>-->
+                            <field name="xml_ids" widget="many2many_binary"/>
+                        </group>
+                    </sheet>
+                    <footer>
+                        <button name="import_xml" string="Crear Factura" type="object" class="oe_highlight"/>
+                        <button string="Cancelar" class="oe_link" special="cancel" />
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <record id="import_xml_invoice_wizard_tree_view" model="ir.ui.view">
+            <field name="name">ProjectName.import_xml_invoice_wizard.tree</field>
+            <field name="model">import.xml.invoice.wizard</field>
+            <field name="arch" type="xml">
+                <tree string="Importar XML">
+<!--                    <field name="xml_doc"/>-->
+                    <field name="xml_ids"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="import_xml_invoice_wizard_act_window" model="ir.actions.act_window">
+            <field name="name">Importar XML</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">import.xml.invoice.wizard</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem name="Importar XMl" id="import_xml_invoice_wizard_menu" parent="account.menu_finance_receivables" action="import_xml_invoice_wizard_act_window"/>
+
+    </data>
+</odoo>

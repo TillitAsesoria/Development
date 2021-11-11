@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:cce11="http://www.sat.gob.mx/ComercioExterior11"
+                  xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/ComercioExterior11 http://www.sat.gob.mx/sitio_internet/cfd/ComercioExterior11/ComercioExterior11.xsd"
+                  Version="3.3"
+                  Sello="HJ6L2HxPoumZwNwlPbzLi2QjF4yDYo2/Civy4rFe3YiK0ib3pwKBa1//iclxVEtJwySzrKHbBTDy/gmxiyAGhDor+amyveU+NHXFJoDfjCb8B7m7Psj7EfRBMe+l5ewH+ufQLqhZwLWFwgHd/MB1ON9zLPnA3bc4XmjaX47FTq79FZe0rLOTwqOqSonW5dnPxGa02Shtru5jFp+qlhiNGHQDLORlAv+Sy1qSosl2vIZMY7oULemjQ3MjzpSAkdoVM2ihygwYuFDWeoX9CehbWykTwC4V1sQ/6NsgBna8kD452C/MDrWSK9vmFPacaonxd5f/lPmDXcTkD93S9c0AMQ=="
+                  Fecha="2021-10-22T11:51:25" Folio="20215367" Serie="FA" FormaPago="03"
+                  NoCertificado="00001000000410893021"
+                  Certificado="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"
+                  SubTotal="461.21" Moneda="MXN" Total="535.00" TipoDeComprobante="I" MetodoPago="PUE"
+                  LugarExpedicion="44460">
+    <cfdi:Emisor Rfc="GAU101208N69" Nombre="Gona Autopartes S.A. de C.V." RegimenFiscal="601"/>
+    <cfdi:Receptor Rfc="PEFJ930730QE1" Nombre="JORGE ALBERTO PEREZ FLORES" UsoCFDI="G01"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto ClaveProdServ="25172900" NoIdentificacion="017-1208-01" Cantidad="1.000000" ClaveUnidad="H87"
+                       Unidad="Unidades" Descripcion="[017-1208-01] CALAVERA FD ECOSPORT 04-07 CLARA DEPO IZQ"
+                       ValorUnitario="461.21" Importe="461.21">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="461.21" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000"
+                                   Importe="73.79"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos TotalImpuestosTrasladados="73.79">
+        <cfdi:Traslados>
+            <cfdi:Traslado Importe="73.79" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+    <cfdi:Complemento>
+        <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"
+                                 xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd"
+                                 Version="1.1"
+                                 SelloCFD="HJ6L2HxPoumZwNwlPbzLi2QjF4yDYo2/Civy4rFe3YiK0ib3pwKBa1//iclxVEtJwySzrKHbBTDy/gmxiyAGhDor+amyveU+NHXFJoDfjCb8B7m7Psj7EfRBMe+l5ewH+ufQLqhZwLWFwgHd/MB1ON9zLPnA3bc4XmjaX47FTq79FZe0rLOTwqOqSonW5dnPxGa02Shtru5jFp+qlhiNGHQDLORlAv+Sy1qSosl2vIZMY7oULemjQ3MjzpSAkdoVM2ihygwYuFDWeoX9CehbWykTwC4V1sQ/6NsgBna8kD452C/MDrWSK9vmFPacaonxd5f/lPmDXcTkD93S9c0AMQ=="
+                                 NoCertificadoSAT="00001000000504204441" RfcProvCertif="CVD110412TF6"
+                                 UUID="FE7E76A4-0AB0-460C-BD75-033DA074D834" FechaTimbrado="2021-10-22T11:51:27"
+                                 SelloSAT="iFInk39ZC1a02/2+VbqoCwMynqqN4xYFcaNQdgP88yP733oYbO/5dDecvqfkS5teUlBaGoOW67dTyhAxw8cmi9WJwJ4H9/8iKs+A83YKu11QK3vIceM5B/UXYf7XCx/vzG3Ld2CM2boRkg+fLXSmdIzEDVuKptMwTfl8gcXN+q5dyY8d6f7n+qjdn1yTE1hOqsryLyOv/ksoccLPPhPeqHDi5kuMKW+x7Petm9tL9+fdDE7I4C2/tUHKVkRY3piB9Ig4UXAn8UwGXmeeyzEAXzwLA9bMPajUayNIZlRxe0sTl/5l6td6hxnWY0OiFmtlcH3c9hNRCrvV9kyCoAVd7w=="/>
+    </cfdi:Complemento>
+</cfdi:Comprobante>

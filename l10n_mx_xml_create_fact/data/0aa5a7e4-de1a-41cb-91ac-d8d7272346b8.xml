@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd"
+                  xmlns:cfdi="http://www.sat.gob.mx/cfd/3" Version="3.3"
+                  Sello="ELuQSNet75aCjZco8I5dsDSsWZjcwJ3WkplEdFkDuHmIBkW5teZr8JSw0+bFV215DU2SCxfSfspy+dt2tbvi+CekSnbvrSETwWRcoUv4W8UCvg4d2/6fcFGuo72eVLihJgnezko/Ewj2fVyvkX9erkLbK0CFbYEi2qzktSopPZJm10RtFaOCnL8vCmGPQM2lAqGrzE/CoJPk/8cPAugWVZSYuBoNEQF4L+b/F4Ecv2KEa5dwqgFZHCMy5KGOTgm7U8t2p+N70Z9cwoBamYdcSDYHxHSax7gz4EAqwmGyx/DUvLuMSzUOlbODJ/XK6gg33lZpmjb/zDNQr4Gum9XmKA=="
+                  Serie="FM" Folio="269082" Fecha="2021-09-08T13:21:58" FormaPago="99"
+                  NoCertificado="00001000000501127659" LugarExpedicion="44430"
+                  Certificado="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"
+                  CondicionesDePago="15 DIAS " SubTotal="764.00" Moneda="MXN" Total="886.24" TipoDeComprobante="I"
+                  MetodoPago="PPD">
+    <cfdi:Emisor Rfc="MAU1509186J3" Nombre="MANIJAS Y AUTOPARTES SA DE CV" RegimenFiscal="601"></cfdi:Emisor>
+    <cfdi:Receptor Rfc="GAU101208N69" Nombre="GONA AUTOPARTES S.A. DE C.V." UsoCFDI="G01"></cfdi:Receptor>
+    <cfdi:Conceptos>
+        <cfdi:Concepto ClaveProdServ="25191700" NoIdentificacion="102640" Cantidad="1" ClaveUnidad="H87" Unidad="Pieza"
+                       Descripcion="MANIJA EXTERIOR FD F150/F250 15-20 del/tras der s/hoyo p/llave s/sensor lisa ng Manijas "
+                       ValorUnitario="764.000000" Importe="764">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="764" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="122.24"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+            <cfdi:InformacionAduanera NumeroPedimento="21  48  3387  1040646"/>
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos TotalImpuestosTrasladados="122.24">
+        <cfdi:Traslados>
+            <cfdi:Traslado Importe="122.24" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+    <cfdi:Complemento>
+        <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"
+                                 xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd"
+                                 Version="1.1" UUID="0AA5A7E4-DE1A-41CB-91AC-D8D7272346B8"
+                                 FechaTimbrado="2021-09-08T13:21:58" RfcProvCertif="DET080304395"
+                                 SelloCFD="ELuQSNet75aCjZco8I5dsDSsWZjcwJ3WkplEdFkDuHmIBkW5teZr8JSw0+bFV215DU2SCxfSfspy+dt2tbvi+CekSnbvrSETwWRcoUv4W8UCvg4d2/6fcFGuo72eVLihJgnezko/Ewj2fVyvkX9erkLbK0CFbYEi2qzktSopPZJm10RtFaOCnL8vCmGPQM2lAqGrzE/CoJPk/8cPAugWVZSYuBoNEQF4L+b/F4Ecv2KEa5dwqgFZHCMy5KGOTgm7U8t2p+N70Z9cwoBamYdcSDYHxHSax7gz4EAqwmGyx/DUvLuMSzUOlbODJ/XK6gg33lZpmjb/zDNQr4Gum9XmKA=="
+                                 NoCertificadoSAT="00001000000503726537"
+                                 SelloSAT="cGnTS5WrO08petTYuWqA44fgROA1oXqMAFFtk4Vcwofkc5d9HQeLatfqBHuJRXA2vnT6zJmZ5w4MibPGADO01mWXdJuhbo9M12+6pdlCbPqogBAqmWVOUJmTKYcrvEkdNa4MymvcfDiq0HBHhOzfz2wBvQM4EJ35UCQYyObt/YOLj1RMsk5c+kWbhjAlSqx53aKtfEig1I8KSWLlXQH2xGmoMJ+6qoVsMJuwB467RiLi6g9kLscuKzQhwHtx/F5euRQfz/RJjBy/j9Xke9Ky/xESBoOFSPlFXTi1kPowUPB0USeUhmpT+nvJFGIWq3ax/gycqTlcCSfgnqy6l2jhSQ=="/>
+    </cfdi:Complemento>
+</cfdi:Comprobante>

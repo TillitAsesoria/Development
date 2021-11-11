@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  Certificado="MIIF1TCCA72gAwIBAgIUMDAwMDEwMDAwMDA1MDQwMDE4NjIwDQYJKoZIhvcNAQELBQAwggGEMSAwHgYDVQQDDBdBVVRPUklEQUQgQ0VSVElGSUNBRE9SQTEuMCwGA1UECgwlU0VSVklDSU8gREUgQURNSU5JU1RSQUNJT04gVFJJQlVUQVJJQTEaMBgGA1UECwwRU0FULUlFUyBBdXRob3JpdHkxKjAoBgkqhkiG9w0BCQEWG2NvbnRhY3RvLnRlY25pY29Ac2F0LmdvYi5teDEmMCQGA1UECQwdQVYuIEhJREFMR08gNzcsIENPTC4gR1VFUlJFUk8xDjAMBgNVBBEMBTA2MzAwMQswCQYDVQQGEwJNWDEZMBcGA1UECAwQQ0lVREFEIERFIE1FWElDTzETMBEGA1UEBwwKQ1VBVUhURU1PQzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMVwwWgYJKoZIhvcNAQkCE01yZXNwb25zYWJsZTogQURNSU5JU1RSQUNJT04gQ0VOVFJBTCBERSBTRVJWSUNJT1MgVFJJQlVUQVJJT1MgQUwgQ09OVFJJQlVZRU5URTAeFw0yMDA1MTkxNzE5MDRaFw0yNDA1MTkxNzE5MDRaMIGjMRcwFQYDVQQDEw5SQURFQyBTQSBERSBDVjEXMBUGA1UEKRMOUkFERUMgU0EgREUgQ1YxFzAVBgNVBAoTDlJBREVDIFNBIERFIENWMSUwIwYDVQQtExxSQUQ4OTA5MzA3VTAgLyBNQUZNNzQwMjA4MkszMR4wHAYDVQQFExUgLyBNQUZNNzQwMjA4SEpDQ0xOMDYxDzANBgNVBAsTBk1BVFJJWjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL5YqS6neviECoeKhjJIoKXZE8bh64O3/HSRyHCEuWH/TLcjvd9y1aEGqSFA7+2ti+fLH+YhsSaaxCKeV6GzIqtRY1CSf3JbsYHaeE5AmTZwrMNbEbz6297q35RZPS6H6xux41oUohJ5s5072ET5h2qRAAMu54LS6eMe3P0tY25XK43BhZyVPFrIbQJ08OdE6J+rm7T4mzS4SmQvEzSARPRrX3/9rZlRoFJHK8DNzP6wfVNTQQy+S5RlfNB3B8z93+YkN1mQ3jNw4kLthD7+nNblLaZ29MmDVcKqZDD0Uhs9QaScedadRX5UZ2r6kmJBPKLB+aHVdB/d1T5ILSIcP08CAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQELBQADggIBAJtSjsTHB7yZkmV0bY0hNsd384qMjFXs+xEBw6yDdwcTx/ujnUdMfJa/nkUITE46v2r1fA1quoQh+k1XtIeghl+LMfvljk/DBTLC/plBXEDcq0L09aib3MsszFzI2ECxKsvA2G0X5G+gauRLGW5RLVBafmR1Gj0aimSWv5h9eVdr04PyD5hGF8izBhRjP/CWRCJk4HTQxMM6OU1MItrw3Pvh+SGRi/cMvga3k7uQMIMatfYuT4SVtpLW4Ogd6g71ldlhheC/xh1vtMOtuEe2tUNA6tWiwnDiDNUwIOeZV4yxRqf0PnN8UUK48KPwEfXLsXzp5wkMa1gAGPsoge/7/nDL0TO0iMtCUeLTqP7ygl2UhHjcuo9RY/tvu34n+wEM4DDtja3lF6DdjsVEphPuqVwyuC6FXa+obBI06BQ3N5CMAOjyVl7+OvtW03zpq9/EuxUf7sO1HSk/r1erxjpPbthkdznXDFrvzaSIlCtzqDyN6sE2qFgQx/rCZ987bOrT3MkUn7q22YO91249sFZeh15NJc6L5VPsH3AO8PvwQTn8fREilNUP78bops5sKwQYrjxhWaihNVDLQNrRA30Guw97ixOoKbBCz9GrZ0mCFw7YqHd5XyvV+zXUKwW+Kzty9wwzC10vJC/XdJr9kDFUv/6oPJ29264Esu65bFfcIwRf"
+                  CondicionesDePago="90 días" Fecha="2021-09-06T15:34:36" Folio="253305" FormaPago="99"
+                  LugarExpedicion="44460" MetodoPago="PPD" Moneda="MXN" NoCertificado="00001000000504001862"
+                  Sello="vNYwPnzNaOrZZRlU8TJPwJjuqnDZXKsO4a/akuJC0zrRchKgkusTAWMMruY/Xyv9CSLLOsSn3hG6kyOC2AwIDqHg65MOTlspECNuHxcwmm7Wlh3WlhIpWdFhFQgRP27zKyUXMFVZ1+zqRfqTuYwQvZw8bjStNxIYeYfQeauPkewugWsk6n673YUjW5mXQHV/CTUaZgrly+5+Ya5MkIKLblCXGZpRy3beF53iRRtTOLj//CBQve5xtOVGjneR9dTc6HY3fDKgsNn5ty10MZZNT6ZBP6oTDQQnPBZlisjYDh3pv+S53ELOnAEfj9s/Q8iORMfkJWEW06tmiBgYlyp37w=="
+                  Serie="FEJS" SubTotal="1685.50" TipoDeComprobante="I" Total="1955.17" Version="3.3"
+                  xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd">
+    <cfdi:Emisor Nombre="RADEC S.A. DE C.V." RegimenFiscal="601" Rfc="RAD8909307U0"/>
+    <cfdi:Receptor Nombre="GONA AUTOPARTES S.A. DE C.V." Rfc="GAU101208N69" UsoCFDI="G01"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="25172604" ClaveUnidad="H87"
+                       Descripcion="ESPEJO FD FCUS 00-06 ELEC CORR 3PI D" Importe="485.10" NoIdentificacion="018121900"
+                       Unidad="PZA" ValorUnitario="485.10">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="485.10" Importe="77.62" Impuesto="002" TasaOCuota="0.160000"
+                                   TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+            <cfdi:InformacionAduanera NumeroPedimento="18  48  3977  8014102"/>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="25191700" ClaveUnidad="H87"
+                       Descripcion="MANJ EXT FD FCUS DEL D TRA 00-05 S/H D/I" Importe="217.00"
+                       NoIdentificacion="012121902" Unidad="PZA" ValorUnitario="217.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="217.00" Importe="34.72" Impuesto="002" TasaOCuota="0.160000"
+                                   TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="25172605" ClaveUnidad="H87"
+                       Descripcion="PARR FD FCUS 00-04 NGO C/1/4" Importe="372.90" NoIdentificacion="204121900"
+                       Unidad="PZA" ValorUnitario="372.90">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="372.90" Importe="59.66" Impuesto="002" TasaOCuota="0.160000"
+                                   TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+            <cfdi:InformacionAduanera NumeroPedimento="17  48  3411  7001786"/>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="25172600" ClaveUnidad="H87"
+                       Descripcion="REJ FASCIA FD FCUS 00-04 S/HY" Importe="216.70" NoIdentificacion="003121900"
+                       Unidad="PZA" ValorUnitario="216.70">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="216.70" Importe="34.67" Impuesto="002" TasaOCuota="0.160000"
+                                   TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+            <cfdi:InformacionAduanera NumeroPedimento="18  81  3108  8001304"/>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="25172602" ClaveUnidad="H87"
+                       Descripcion="TOLVA SALP FD FCUS 00-04 PLAST D" Importe="196.90" NoIdentificacion="216121900"
+                       Unidad="PZA" ValorUnitario="196.90">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="196.90" Importe="31.50" Impuesto="002" TasaOCuota="0.160000"
+                                   TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+            <cfdi:InformacionAduanera NumeroPedimento="17  48  3977  7016722"/>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="25172602" ClaveUnidad="H87"
+                       Descripcion="TOLVA SALP FD FCUS 00-04 PLAST I" Importe="196.90" NoIdentificacion="216121901"
+                       Unidad="PZA" ValorUnitario="196.90">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="196.90" Importe="31.50" Impuesto="002" TasaOCuota="0.160000"
+                                   TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+            <cfdi:InformacionAduanera NumeroPedimento="18  48  3411  8008577"/>
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos TotalImpuestosTrasladados="269.67">
+        <cfdi:Traslados>
+            <cfdi:Traslado Importe="269.67" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+    <cfdi:Complemento>
+        <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"
+                                 FechaTimbrado="2021-09-06T15:34:29" NoCertificadoSAT="00001000000412961981"
+                                 RfcProvCertif="FCG840618N51"
+                                 SelloCFD="vNYwPnzNaOrZZRlU8TJPwJjuqnDZXKsO4a/akuJC0zrRchKgkusTAWMMruY/Xyv9CSLLOsSn3hG6kyOC2AwIDqHg65MOTlspECNuHxcwmm7Wlh3WlhIpWdFhFQgRP27zKyUXMFVZ1+zqRfqTuYwQvZw8bjStNxIYeYfQeauPkewugWsk6n673YUjW5mXQHV/CTUaZgrly+5+Ya5MkIKLblCXGZpRy3beF53iRRtTOLj//CBQve5xtOVGjneR9dTc6HY3fDKgsNn5ty10MZZNT6ZBP6oTDQQnPBZlisjYDh3pv+S53ELOnAEfj9s/Q8iORMfkJWEW06tmiBgYlyp37w=="
+                                 SelloSAT="h/pMttPWQMghJcLEJp3CFVpMawfZn4McKnZ9ANDd+7h+VSNyHDfIYyJlZ0Lo8F+RTb/gLsz2CQzo4/VIo7XeemYLM4akY2mElZUtNlyhr1bJ2cJi/+lVis6bkRpYo90FH6jlz93Je1L1Qg0TiWzbR0Zp5Ql54G+U0ZCcN0GjIsVMBgK6y+5AWgxB1TxcGXRPfQ787mU3LNkxOoR9ABUmdiBU9iGG9Yy0QBrpGl08/Oywle6jBsXbt4DcUtWDXf8sYUOdeyxx5+abblq4oejOFDH7n4dvLHDUbUFqv3csBBULgtNF4y4+A7NDKuzo+v0Ai2IFkyKrJWlxG+JFjPS1YQ=="
+                                 UUID="0A085FA1-383B-4834-81A8-7F155283574E" Version="1.1"
+                                 xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd"/>
+    </cfdi:Complemento>
+</cfdi:Comprobante>
+

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="import_xml_sat_form_view" model="ir.ui.view">
+            <field name="name">import_xml_sat.form</field>
+            <field name="model">import.xml.sat</field>
+            <field name="arch" type="xml">
+                <form string="XML">
+                    <sheet>
+                        <group>
+                            <field name="doc_xml"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="import_xml_sat_tree_view" model="ir.ui.view">
+            <field name="name">import_xml_sat.tree</field>
+            <field name="model">import.xml.sat</field>
+            <field name="arch" type="xml">
+                <tree string="XML" multi_edit="1">
+                    <field name="doc_xml"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="import_xml_sat_search_view" model="ir.ui.view">
+            <field name="name">import_xml_sat.search</field>
+            <field name="model">import.xml.sat</field>
+            <field name="arch" type="xml">
+                <search string="XML">
+                    <field name="doc_xml"/>
+<!--                    <group expand="1" string="Group By">-->
+<!--                        <filter string="Example Field" name="example_field" domain="[]"-->
+<!--                                context="{'group_by':'example_field'}"/>-->
+<!--                    </group>-->
+                </search>
+            </field>
+        </record>
+
+        <record id="import_xml_sat_act_window" model="ir.actions.act_window">
+            <field name="name">XML</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">import.xml.sat</field>
+            <field name="view_mode">tree,form</field>
+            <field name="search_view_id" ref="import_xml_sat_search_view"/>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    Cargar un XML de Prueba.
+                </p>
+            </field>
+        </record>
+    </data>
+</odoo>

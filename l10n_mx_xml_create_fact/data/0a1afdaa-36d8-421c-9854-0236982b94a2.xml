@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  Version="3.3"
+                  xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd"
+                  Serie="FA" Folio="2021090600002183" Fecha="2021-09-06T17:24:05"
+                  Sello="XNlQffPEy/paHv9skJwOmnQse76o/gnIRLW0McHqtxLMPTMk8glxvUlSD2mEgel3sapXpsW/5KjUwj/MCx8U/iMroL7u0d6KdNzn2q9oAxt3kSXPwoNu/Fi/U0q3XcFjMCAf+b71pNF53+/yBLUNbg10oABsUJ0vOe8N7ugOUa+ZWafnxVAZw92WVe/kkOokURqOzSaTpAIG979QwFEfkqouq1fqsKOmM+PvIZeeFBdDEmXvhZnTDF1O1xKVpq589s3QwzuHOK5LF2eDM37U3uWv63FJv0MBypN7u2s7CWtACQzx5jwEzSjel5tEAF1QIO3w/Muef9mDC+AVUm9jsA=="
+                  FormaPago="03" NoCertificado="00001000000414761422"
+                  Certificado="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"
+                  SubTotal="224.05" Moneda="MXN" TipoCambio="1" Total="259.90" TipoDeComprobante="I" MetodoPago="PUE"
+                  LugarExpedicion="03240">
+    <cfdi:Emisor Rfc="PNA1504108Y2" Nombre="EVO Payments México S. DE R. L. DE C.V." RegimenFiscal="601"/>
+    <cfdi:Receptor Rfc="GAU101208N69" Nombre="GONA AUTOPARTES SA CV" UsoCFDI="G03"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto ClaveProdServ="84141702" NoIdentificacion="26" Cantidad="1.00" ClaveUnidad="E48"
+                       Unidad="SERVICIO" Descripcion="COBRO COMIS TAR CRED A NOM EVOPAYMX" ValorUnitario="185.16"
+                       Importe="185.16">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="185.16" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000"
+                                   Importe="29.63"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto ClaveProdServ="84141702" NoIdentificacion="27" Cantidad="1.00" ClaveUnidad="E48"
+                       Unidad="SERVICIO" Descripcion="COBRO COMIS TAR DEBIT A NOM EVOPAYMX" ValorUnitario="38.89"
+                       Importe="38.89">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="38.89" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="6.22"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos TotalImpuestosTrasladados="35.85">
+        <cfdi:Traslados>
+            <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="35.85"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+    <cfdi:Complemento>
+        <tfd:TimbreFiscalDigital FechaTimbrado="2021-09-06T20:49:20" UUID="0A1AFDAA-36D8-421C-9854-0236982B94A2"
+                                 NoCertificadoSAT="00001000000503270882"
+                                 SelloCFD="XNlQffPEy/paHv9skJwOmnQse76o/gnIRLW0McHqtxLMPTMk8glxvUlSD2mEgel3sapXpsW/5KjUwj/MCx8U/iMroL7u0d6KdNzn2q9oAxt3kSXPwoNu/Fi/U0q3XcFjMCAf+b71pNF53+/yBLUNbg10oABsUJ0vOe8N7ugOUa+ZWafnxVAZw92WVe/kkOokURqOzSaTpAIG979QwFEfkqouq1fqsKOmM+PvIZeeFBdDEmXvhZnTDF1O1xKVpq589s3QwzuHOK5LF2eDM37U3uWv63FJv0MBypN7u2s7CWtACQzx5jwEzSjel5tEAF1QIO3w/Muef9mDC+AVUm9jsA=="
+                                 SelloSAT="RE+Z/wX4UJL+3Bd4Oes3WM8bW9KOqbf85CaCVaggjLieBWWH2/VC2iBoV3pC4dildDKQ1l/sO/De3BmLVSm14mDpQchZR+5Cbfh1ryKtGDFLNoLS6JyNcATeFDrqh+F49I7zS11Z7RZropttOBPi5nVpGzQHaYAVU3unBC2o6FgnJ0aAq5sIAGYmvSFr16EA87gwtkp+JKNfZTGwsvp+34Ap/TfedYfMV17wWweJaK8UMIr/xfJnmHOv5xkC7/4bOwYKmCeMkT/aBRp6rUYtqeZZNa4yEydsQD49hv2ut58HvKdr2FFeqPXufkjhtnoo2Mu4J0u/uwVmgcYKd//qBQ=="
+                                 Version="1.1" RfcProvCertif="TLE011122SC2"
+                                 xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd"
+                                 xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"
+                                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    </cfdi:Complemento>
+</cfdi:Comprobante>

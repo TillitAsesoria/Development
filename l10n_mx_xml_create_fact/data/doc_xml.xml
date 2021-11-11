@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd"
+                  LugarExpedicion="44430" MetodoPago="PUE" TipoDeComprobante="I" Total="2378.79" Moneda="MXN"
+                  Certificado="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"
+                  SubTotal="2378.79" NoCertificado="00001000000504565713" FormaPago="03"
+                  Sello="A2sATDzR3F/Ha0ktfuJVcaE8POj4RndqnEBXuH98TShSB6Mx64Y8ZCqdjGIYjmUPLraZhKHrYITMksFVTVAxtaunDsQgGYE9ecffE1Cio5dLmy7dLr6SU0L7hmy+xnYwL28q1m5VshkP68T9SFhRVKGat+mZDTTr+3wdMLRGzsHmrqle9PNGoJm1xA8Dx8mcnnTUUD43256jpEfxeaUD7NHyXF2J+0RI9tppEq1TPt/fhNBLeFth2EN3LJM0dPzrtPa4x6NjojJxSnwwzI1i5m0VombKqdUrXmnPQSrqia/mIHKzyTEwgltrw2NKOWO5bG6Qqm/Tt1HHibkCXQEk4Q=="
+                  Fecha="2021-10-07T12:41:56" Version="3.3" xmlns:cfdi="http://www.sat.gob.mx/cfd/3">
+    <cfdi:Emisor Rfc="AABD830809H3A" Nombre="DAVID DE ALBA BARBA" RegimenFiscal="612"></cfdi:Emisor>
+    <cfdi:Receptor Rfc="GGF150528CN8" Nombre="GRUPO GASTRONOMICO FAR" UsoCFDI="G01"></cfdi:Receptor>
+    <cfdi:Conceptos>
+        <cfdi:Concepto ClaveProdServ="50111513" Cantidad="3.485" ClaveUnidad="KGM" Unidad="KILOGRAMO"
+                       Descripcion="ARRACHERA" ValorUnitario="195.00" Importe="679.58"></cfdi:Concepto>
+        <cfdi:Concepto ClaveProdServ="50111513" Cantidad="6.388" ClaveUnidad="KGM" Unidad="KILOGRAMO"
+                       Descripcion="VACIO" ValorUnitario="266.00" Importe="1699.21"></cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Complemento>
+        <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"
+                                 xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd"
+                                 Version="1.1" UUID="6C3E60DF-F565-4515-B925-2420F52B2DA2"
+                                 FechaTimbrado="2021-10-07T12:47:27" RfcProvCertif="SAT970701NN3"
+                                 SelloCFD="A2sATDzR3F/Ha0ktfuJVcaE8POj4RndqnEBXuH98TShSB6Mx64Y8ZCqdjGIYjmUPLraZhKHrYITMksFVTVAxtaunDsQgGYE9ecffE1Cio5dLmy7dLr6SU0L7hmy+xnYwL28q1m5VshkP68T9SFhRVKGat+mZDTTr+3wdMLRGzsHmrqle9PNGoJm1xA8Dx8mcnnTUUD43256jpEfxeaUD7NHyXF2J+0RI9tppEq1TPt/fhNBLeFth2EN3LJM0dPzrtPa4x6NjojJxSnwwzI1i5m0VombKqdUrXmnPQSrqia/mIHKzyTEwgltrw2NKOWO5bG6Qqm/Tt1HHibkCXQEk4Q=="
+                                 NoCertificadoSAT="00001000000504465028"
+                                 SelloSAT="ggjb/hjeLHdbaqU0i5CV+y8IuZoLo9XX0JIPSh4D6+E9R75Vr/NpvHKE7mcFv/KngnR3BHz3DHy+UVLSmnv+rCx/HOUyeUlIQ5a92bk3c606bKx3gdUu05YhH5/3dV7H1OmZynBMsG7/kWv5cDPl93Q4eOsb+E1pvkQ+Z+NSkYbzJy1YsME66xwmZ51F+Fu3ODeZwNB/WOM6cfidtwFwRVofnNzFxJL8OogFsLDXgIlQhChdZu/+HGDuw8KHIuQjwgQNOAA+7POD4oG+WwkyFUz9LdIoENhAujQgnUQAvA2C6mZ7x+4mTSAfdeActC0hKQ31an1Hwk0A6YmO0efHXw=="/>
+    </cfdi:Complemento>
+</cfdi:Comprobante>
