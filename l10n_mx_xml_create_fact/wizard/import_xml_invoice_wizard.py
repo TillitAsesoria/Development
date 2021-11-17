@@ -20,6 +20,8 @@ class ImportXmlInvoiceWizard(models.Model):
 
     def import_xml(self):
         self.ensure_one()
+        comp = self.env['res.company'].search([('id', '=', 1)])
+        print('Company', comp.vat)
         for imp in self.xml_ids:
             cont = imp.name
             store = imp.store_fname
@@ -80,7 +82,7 @@ class ImportXmlInvoiceWizard(models.Model):
 
             for imp in impusto:
                 amount = float(imp.getAttribute("TasaOCuota")) * 100
-                if client.vat == 'GAU101208N69':
+                if client.vat == str(comp.vat):
                     tax_id = self.env['account.tax.template'].search(
                         [('amount', '=', int(amount)),
                          ('name', '=', ('IVA(16%) VENTAS', 'IVA(0%) VENTAS', 'IVA(8%) VENTAS'))])
@@ -152,7 +154,7 @@ class ImportXmlInvoiceWizard(models.Model):
                 print('Fecha', fechafact.date())
             if not self.existe_factura(cant, date_invoice):
                 if nota_credito:
-                    if client.vat == 'GAU101208N69':
+                    if client.vat == str(comp.vat):
                         invoice = self.env['account.move'].create({
                             'partner_id': company.id if company else compania.id,
                             'move_type': 'out_refund',
@@ -173,7 +175,7 @@ class ImportXmlInvoiceWizard(models.Model):
                             'file_size': size,
                             'db_datas': datas
                         })
-                    if company.vat == 'GAU101208N69':
+                    if company.vat == str(comp.vat):
                         invoice = self.env['account.move'].create({
                             'partner_id': client.id if client else clientes.id,
                             'move_type': 'in_refund',
@@ -194,7 +196,7 @@ class ImportXmlInvoiceWizard(models.Model):
                             'db_datas': datas
                         })
                 else:
-                    if client.vat == 'GAU101208N69':
+                    if client.vat == str(comp.vat):
                         invoice = self.env['account.move'].create({
                             'partner_id': company.id if company else compania.id,
                             'move_type': 'out_invoice',
@@ -214,7 +216,7 @@ class ImportXmlInvoiceWizard(models.Model):
                             'file_size': size,
                             'db_datas': datas
                         })
-                    if company.vat == 'GAU101208N69':
+                    if company.vat == str(comp.vat):
                         invoice = self.env['account.move'].create({
                             'partner_id': client.id if client else clientes.id,
                             'move_type': 'in_invoice',
